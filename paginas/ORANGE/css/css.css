@@ -1,0 +1,381 @@
+*{
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+  list-style: none;
+}
+header{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.barra1{
+width: 72.35%;
+height: 100px;
+margin: auto;
+background-color:background: rgba(252,234,187,1);
+background: -moz-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,234,187,1)), color-stop(34%, rgba(252,205,77,1)), color-stop(98%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+background: -webkit-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: -o-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: -ms-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1 );;
+}
+.barra2{
+width: 22.2%;
+height: 100px;
+margin: auto;
+background-color:background: rgba(252,234,187,1);
+background: -moz-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(252,234,187,1)), color-stop(34%, rgba(252,205,77,1)), color-stop(98%, rgba(248,181,0,1)), color-stop(100%, rgba(251,223,147,1)));
+background: -webkit-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: -o-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: -ms-linear-gradient(left, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+background: linear-gradient(to right, rgba(252,234,187,1) 0%, rgba(252,205,77,1) 34%, rgba(248,181,0,1) 98%, rgba(251,223,147,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93', GradientType=1 );;
+display: flex;
+}
+.barra1 img{
+  width: 300px;
+  margin-left: 20px;
+}
+.carr{
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+.barra2 img{
+  width: 50px;
+  height: 50px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+section{
+  width: 100%;
+  height: auto;
+}
+.content{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.columna1{
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cu1{
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu1 img{
+  width: 100%;
+}
+.cu1 h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.cu2{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu2 h2{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+.cu2 p{
+  font-family: 'Dancing Script', cursive;
+font-family: 'Alegreya Sans', sans-serif;
+text-align: justify;
+font-size: 18px;
+}
+.cu3{
+  width: 90%;
+  height: 180px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu3{
+  font-size: 30px;
+  text-align: center;
+}
+.cu3 h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.cu3 ul{
+  width: 100px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  padding-top: 25px;
+}
+.cu3 ul li{
+  border: 1px solid black;
+}
+.cu3 ul li :hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+.cu4{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu4 img{
+  width: 100%;
+  margin: auto;
+}
+.columna2{
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cu11{
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu11 ul{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  padding-top: 25px;
+  font-size: 40px;
+}
+.cu11 ul li{
+  border: 1px solid black;
+}
+.cu11 ul li :hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+.cu12{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu12 h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.cu12 p{
+  font-family: 'Dancing Script', cursive;
+font-family: 'Alegreya Sans', sans-serif;
+text-align: justify;
+font-size: 25px;
+}
+.cu13{
+  width: 90%;
+  height: 180px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu13 img{
+  width: 100%;
+}
+.cu14{
+  width: 90%;
+  height: 170px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu14 ul{
+  width: 200px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  padding-top: 25px;
+  font-size: 40px;
+}
+.cu14 ul li{
+  border: 1px solid black;
+}
+.cu14 ul li :hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.16);
+}
+.columna3{
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.cu21{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu21 img{
+  width: 100%;
+}
+.cu22{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu22 h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.cu22 p{
+  font-family: 'Dancing Script', cursive;
+font-family: 'Alegreya Sans', sans-serif;
+text-align: justify;
+font-size: 19px;
+}
+.cu23{
+  width: 90%;
+  height: 220px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu23 h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.cu23 p{
+  font-family: 'Luckiest Guy', cursive;
+font-family: 'Patrick Hand', cursive;
+text-align: justify;
+font-size: 17px;
+}
+.cu24{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+.cu24 h3{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 18px;
+  text-align: center;
+}
+.cu24 img{
+  width: 80%;
+  padding-left: 30px;
+}
+.columna4{
+  width: 25%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.texto{
+  width: 90%;
+  height: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+.texto h1{
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.texto p{
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+text-align: justify;
+font-size: 19px;
+}
+
+@media screen and (max-width: 767px) {
+  header{
+    height: 70px;
+  }
+.barra1{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+ }
+.barra1 img{
+  width: 200px;
+  margin-left: 20px;
+}
+.carr{
+}
+.barra2{
+  display: none;
+}
+.content{
+  width: 100%;
+  flex-direction: column;
+}
+.columna1{
+  width: 100%;
+  height: 1400px;
+}
+.columna2{
+  width: 100%;
+  height: 1200px;
+}
+.columna3{
+  width: 100%;
+  height: 1200px;
+}
+.columna4{
+  width: 100%;
+  height: 400px;
+}
+.cu1{
+width: 100%;
+}
+.cu2{
+  width: 100%;
+}
+.cu3{
+  width: 100%;
+}
+.cu4{
+  width: 100%;
+}
+.cu11{
+  width: 100%;
+}
+.cu12{
+  width: 100%;
+}
+.cu13{
+  width: 100%;
+}
+.cu14{
+  width: 100%;
+}
+.cu21{
+  width: 100%;
+}
+.cu22{
+  width: 100%;
+}
+.cu23{
+  width: 100%;
+}
+.texto{
+  width: 100%;
+}
+
+}
