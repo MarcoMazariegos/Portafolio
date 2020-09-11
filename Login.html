@@ -11,24 +11,28 @@
   <body>
 
     <header>
-      <div class="img">
+      <div id="Logo" class="img">
         <a href="index.html"><img src="imagenes/marcologo.png" alt=""></a>
       </div>
-      <div class=".menu_bar">
-      <a href="#"><img class="bt-menu" src="imagenes/hamburguesamenu.webp"></a></div>
-      <nav id="superior">
-      <ul class="nav">
-  <li class="nav-item">
-    <a class="nav-link" href="programas.html">Programas</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="paginas.html">Paginas</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="android.html">Android</a>
-  </li>
-</ul>
-</nav>
+      <img id="botonmenu" src="imagenes/hamburguesamenu.webp" alt="">
+      <!---nuevoNav--->
+      <nav id="Nav">
+        <img id="botoncerrar" src="imagenes/cerrar.svg" alt="">
+            <ul id="ulNav">
+      	<li><a class="bts" href="index.html">Inicio</a></li>
+      	<li id="boton" class="mas">
+          <a class="bts" href="#">Programas</a>
+
+          <ul id="listBoton" class="botones2">
+      		    <a href="paginas.html"><li>HTML5-CSS3</li></a>
+      		    <a href="programas.html"><li>JAVA</li></a>
+      		    <a href="android.html"><li>Android</li></a>
+          </ul>
+
+      		</li>
+         </ul>
+         </nav>
+
     </header>
 
     <section class="todo">
@@ -85,6 +89,7 @@
     </div>
 
     </section>
+  <script src="js/nav.js"></script>
 
     <script src="js/login.js">
 
